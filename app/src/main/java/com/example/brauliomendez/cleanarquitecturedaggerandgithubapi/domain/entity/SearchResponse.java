@@ -2,6 +2,7 @@ package com.example.brauliomendez.cleanarquitecturedaggerandgithubapi.domain.ent
 
 import com.google.gson.annotations.SerializedName;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -16,7 +17,7 @@ public class SearchResponse {
     @SerializedName("incomplete_results")
     private Boolean incompleteResults;
 
-    private List<Item> items = null;
+    private List<Item> items = new ArrayList<>();
 
     public Integer getTotalCount() {
         return totalCount;

@@ -1,8 +1,8 @@
 package com.example.brauliomendez.cleanarquitecturedaggerandgithubapi.retrofit;
 
 import com.example.brauliomendez.cleanarquitecturedaggerandgithubapi.ApiConstants;
-import com.example.brauliomendez.cleanarquitecturedaggerandgithubapi.entity.SearchResponse;
-import com.example.brauliomendez.cleanarquitecturedaggerandgithubapi.entity.User;
+import com.example.brauliomendez.cleanarquitecturedaggerandgithubapi.domain.entity.SearchResponse;
+import com.example.brauliomendez.cleanarquitecturedaggerandgithubapi.domain.entity.User;
 
 import retrofit2.Call;
 import retrofit2.http.Field;
