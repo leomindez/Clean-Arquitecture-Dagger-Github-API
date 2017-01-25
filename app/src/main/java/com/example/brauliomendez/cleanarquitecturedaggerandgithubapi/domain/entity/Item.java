@@ -1,5 +1,6 @@
-package com.example.brauliomendez.cleanarquitecturedaggerandgithubapi.entity;
+package com.example.brauliomendez.cleanarquitecturedaggerandgithubapi.domain.entity;
 
+import com.example.brauliomendez.cleanarquitecturedaggerandgithubapi.domain.entity.User;
 import com.google.gson.annotations.SerializedName;
 
 /**
